@@ -56,3 +56,5 @@ function refreshJumps()
   self.applyJumpModifier = false
 end
 --this entire file is not original, it's just the most vital part of the mod
+--actually might be a fucking idiot because I don't remember if I actually did or didn't edit this
+--there's a good chance that I did absolutely nothing with this file but use it
