@@ -1,17 +1,17 @@
 {
-  "particleEmitters" : {
-    "multiJumpParticles" : {
-      "burstCount" : 8,
-      "particles" : [
-        {
-          "particle" : "levitationair",
-          "offset" : [0.2, -3]
-        }
-      ]
-    }
-  },
+  "name" : "manyjump",
+  "type" : "legs",
 
-  "sounds" : {
-    "multiJumpSound" : ["/sfx/blocks/footstep_grass.ogg"]
-  }
+  "scripts" : ["manyjump.lua"],
+  "animator" : "manyjump.animation",
+
+  "description" : "More than three hops, buddy!",
+  "shortDescription" : "Many Jumps",
+  "rarity" : "Legendary",
+  "icon" : "mods/JumpMod/manyjump.png",
+
+  "chipCost" : 1,
+
+  "multiJumpCount" : 2000,
+  "multiJumpModifier" : 1.25
 }
